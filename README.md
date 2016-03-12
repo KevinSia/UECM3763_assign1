@@ -38,6 +38,8 @@ To begin using git we navigate into the folder (with cd, or right click inside t
 ```
 $ git init
 ```
+By initializing with this command you are telling git to observe this local repository for changes and branches.
+
 Once the repository is created, user could create or modify files in the repository. When a certain milestone is reach and the user decide all the changes made should be updated in the repository, then the user should *commit* the changes in the repository. Each commit to git repository will be tagged with the username of the person who made the commit and a commit message that give an indication of what were changed. Hence, we will need to configure git first before we can make any commit.
 
 Your identity:

@@ -96,7 +96,7 @@ Next is to merge your file "python.png" with your GitHub repository.
 ```
 $ git clone https://github.com/your_github_id/UECM3763_assign1
 ```
-This will create a *UECM3763_assign1* folder. (Remember you can check your current directory with *pwd* and *ls*.) Change into the *UECM3763_assign1* folder.
+This will create a *UECM3763_assign1* folder in your local repository. (Remember you can check your current directory with *pwd* and *ls*.) Change into the *UECM3763_assign1* folder.
 
 #### 2. Copy "python.png" into *UECM3763_assign1* folder.
 
@@ -106,6 +106,7 @@ $ git add -A
 $ git commit -m "Added python.png"
 $ git push origin master
 ```
+Git add will **add** all your new files and changes (including deletion) made to staging. -A flag means you would like to add All the files into staging
 Origin here means that you will be pushing to Github, and master is the main branch you will be working on
 #### 4. Verify at GitHub website that "python.png" is added into the repo.
 

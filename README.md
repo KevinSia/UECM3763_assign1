@@ -102,9 +102,9 @@ This will create a *UECM3763_assign1* folder. (Remember you can check your curre
 ```
 $ git add -A
 $ git commit -m "Added python.png"
-$ git push
+$ git push origin master
 ```
-
+Origin here means that you will be pushing to Github, and master is the main branch you will be working on
 #### 4. Verify at GitHub website that "python.png" is added into the repo.
 
 ------------------------------------------------------------

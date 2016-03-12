@@ -32,7 +32,7 @@ The following is a screen shot of Git Bash session. Several basic folder navigat
 * *ls* - list the content of current directory
 * *exit* - exit Git Bash
 
-To begin using git we navigate into the folder we would like to use as local repository, say *assign1*. Then, we can initialize the repository by
+To begin using git we navigate into the folder (with cd, or right click inside the folder and click git bash here) we would like to use as local repository, say *assign1*. Then, we can initialize the repository by
 ```
 $ git init
 ```

@@ -17,10 +17,12 @@ There are a total of 3 tasks for this assignments:
 
 ## Task 1 -- setup a github repository
 
+### Background
 Version control is a system that tracks changes of files and source codes so that you could recover or recall a specific version in the future. It is especially important if sharing and editing files across a team.
 
 Git is a popular opensource version control system that is widely used by developers. Many of opensource software is managed by git version control. [Git at Wikipedia.](https://en.wikipedia.org/?title=Git_(software))
 
+### Installation
 One of the useful features of git is that all files could be stored in the local repositories in your computer. Git is a command line based software, and thus there will be a bit of learning curve to overcome. On the other hand the installation of git is straight forward. Just point your browser to [http://git-scm.com/download/](http://git-scm.com/download/) and  download Git Bash for your operating system. Depending on your operating system, the procedure to install git will be a bit different, please consult the documentation. (If you are using Linux, usually git is already installed.)
 
 The following is a screen shot of Git Bash session. Several basic folder navigation commands are as below: 
@@ -48,20 +50,17 @@ You will only need to do this once in your computer. Of course you could reconfi
 $ git config --list
 ```
 
-It won't be too useful If git is only to store files locally. Usually we would like sync the local repositories with the cloud based git server for backup or sharing purposes. GitHub is a web-based hosting service that provide git version control. User is allowed to "*push*" or "*pull*" their local repositories to and from remote repositories.
+It won't be too useful If Git is only used to store files locally. Usually we would like sync the local repositories (in your machine) with the cloud based git server (on the internet) for backup or sharing purposes. GitHub is a web-based hosting service that provide git version control. User is allowed to "*push*" or "*pull*" their local repositories to and from remote repositories.
 
-First thing first, let sign up a GitHub account. 
+First thing first, let's sign up a GitHub account. 
 - Go to GitHub homepage [https://github.com/join](https://github.com/join). 
 - Enter a username, email and password and click "Sign up for GitHub".
 - On the next screen, select the free plan and click "Finish Sign Up".
 
-To complete **Task 1**:
+Then, you will need to:
 * Login to your GitHub.
 * While still stay logged in GitHub, go to [https://github.com/yongkheng/UECM3763_assign1](https://github.com/yongkheng/UECM3763_assign1)
 * Click "fork" button at the top right hand corner. Now your GitHub will have a copy of the UECM3763_assign1 repository. Copy the URL.
-* Go to the google form [http://goo.gl/forms/AqRxStO81O](http://goo.gl/forms/AqRxStO81O).
-* Fill in your name, ID and the URL to your newly forked repository.
-* Answer the question in the google form and submit.
 
 
 ------------------------------------------------------------
